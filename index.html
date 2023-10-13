@@ -3,21 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- agregar etiquetas meta -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>RollingBank</title>
   </head>
-  <body>
+  <body class="vh-100 d-flex flex-column">
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand" href="index.html">RollingBank</a>
+          <a class="navbar-brand Nav-titulo" href="index.html">RollingBank</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -38,7 +41,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/quienesSomos.html"
-                  >Quienes somos</a
+                  >¿Quienes somos?</a
                 >
               </li>
               <li class="nav-item">
@@ -48,14 +51,16 @@
                 <a class="nav-link" href="./pages/seguridad.html">seguridad</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/error404.html">Contactos</a>
+                <a class="nav-link" href="./pages/error404.html"
+                  >Robo o extravio</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main>
+    <main class="flex-grow-1">
       <section id="bankRolling" class="carousel slide">
         <div class="carousel-indicators">
           <button
@@ -128,24 +133,72 @@
     <footer class="bg-dark text-secondary py-4">
       <div class="container">
         <div class="row">
+          <div class="mb-4 mt-1">
+            <div class="d-flex">
+              <a
+                href="./index.html"
+                class="Nav-titulo link-light link-underline-opacity-0"
+                >RollingBank</a
+              >
+              <div class="ms-4 iconos-footer">
+                <a href="./pages/error404.html" class="fs-5 link-light"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="./pages/error404.html" class="fs-5 link-light mx-2"
+                  ><i class="bi bi-twitter-x"></i
+                ></a>
+                <a href="./pages/error404.html" class="fs-5 link-light"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </div>
+            </div>
+            <div class="ms-4 iconos-footer2">
+              <a href="./pages/error404.html" class="fs-5 link-light"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="./pages/error404.html" class="fs-5 link-light mx-2"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="./pages/error404.html" class="fs-5 link-light"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
           <div class="col-md-6 col-lg-3 mb-3">
             <h5>Navegación</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="./pages/error404.html" class="link-secondary"
+                <a
+                  href="./pages/error404.html"
+                  class="link-secondary link-underline-opacity-0"
                   >¿Quienes somos?</a
                 >
               </li>
               <li>
-                <a href="./pages/error404.html" class="link-secondary"
-                  >seguridad</a
+                <a
+                  href="./pages/error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Precios</a
                 >
               </li>
               <li>
-                <a href="./pages/error404.html" class="link-secondary">Ayuda</a>
+                <a
+                  href="./pages/error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Seguridad</a
+                >
               </li>
               <li>
-                <a href="./pages/error404.html" class="link-secondary"
+                <a
+                  href="./pages/error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >ayuda</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-secondary link-underline-opacity-0"
                   >Robo o extravio</a
                 >
               </li>
@@ -155,41 +208,58 @@
             <h5>Legales</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="./pages/error404.html" class="link-secondary"
-                  >¿Quienes somos?</a
+                <a
+                  href="./pages/error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Regimen de transparencia</a
                 >
               </li>
               <li>
-                <a href="./pages/error404.html" class="link-secondary"
-                  >seguridad</a
+                <a
+                  href="./pages/error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Usuario bancario</a
                 >
               </li>
               <li>
-                <a href="./pages/error404.html" class="link-secondary">Ayuda</a>
+                <a
+                  href="./pages/error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Conducta bancaria</a
+                >
               </li>
               <li>
-                <a href="./pages/error404.html" class="link-secondary"
-                  >Robo o extravio</a
+                <a
+                  href="./pages/error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Estados contables</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Terminos y condiciones</a
                 >
               </li>
             </ul>
           </div>
           <div class="col-md-6 col-lg-3 mb-3">
             <img
-              src="img/usuariosfinancieros.png"
+              src="./img/usuariosfinancieros.png"
               alt="logo usuarios financieros"
-              class="img-fluid"
+              class="img-footer1"
             />
           </div>
           <div class="col-md-6 col-lg-3 mb-3">
             <h5>Unite</h5>
             <img
-              src="img/badge-apple-store.svg"
+              src="./img/badge-apple-store.svg"
               alt="logo apple store"
               class="img-fluid mb-2"
             />
             <img
-              src="img/google-play-badge-bb.svg"
+              src="./img/google-play-badge-bb.svg"
               alt="logo google play"
               class="img-fluid"
             />
