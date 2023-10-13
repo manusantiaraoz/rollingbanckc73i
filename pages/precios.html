@@ -14,15 +14,15 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/precios.css" />
     <title>RollingBank</title>
   </head>
-  <body class="vh-100 d-flex flex-column">
+  <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand Nav-titulo" href="../index.html"
-            >RollingBank</a
-          >
+          <a class="navbar-brand Nav-titulo" href="index.html">RollingBank</a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -37,30 +37,142 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href=".index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./quienesSomos.html"
+                <a class="nav-link" href="../pages/quienesSomos.html"
                   >¿Quienes somos?</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./precios.html">precios</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="./pages/precios.html">Precios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./seguridad.html">seguridad</a>
+                <a class="nav-link" href="../pages/seguridad.html">Seguridad</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./error404.html">Robo o extravio</a>
+                <a class="nav-link" href="../pages/error404.html"
+                  >Robo o extravio</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main class="flex-grow-1"></main>
+    <main class="flex-grow-1 bg-body-tertiary ">
+      <section class="container-fluid text-bg-primary text-center">
+        <h1 class="h1 py-5">Un banco sin costos para vos</h1>
+      </section>
+      <section class="container my-5">
+        <div class="table-responsive px-5">
+          <table class="table table-hover">
+            <tbody>
+              <tr>
+                <th scope="row">
+                  <i
+                    class="bi bi-person" id="icon-user"></i>
+                </th>
+                <td class="px-5">
+                  <h6>Apertura de cuenta</h6>
+                  <p >
+                    La cuenta puede ser de ahorros, corriente, inversión u otro
+                    tipo, y permite acceder a una variedad de servicios
+                    bancarios como depósitos, retiros y transacciones
+                    financieras.
+                  </p>
+                </td>
+                <td>
+                  <h3><span class="badge bg-primary">$0</span></h3>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <i
+                    class="bi bi-tools" id="icon-tools"
+                    
+                  ></i>
+                </th>
+                <td class="px-5">
+                  <h6>Mantenimiento</h6>
+                  <p>
+                    Esto garantiza el funcionamiento adecuado y seguro de la
+                    cuenta.
+                  </p>
+                </td>
+                <td>
+                  <h3><span class="badge bg-primary">$0</span></h3>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <i
+                    class="bi bi-credit-card-2-front-fill" id="icon-transf"
+                    
+                  ></i>
+                </th>
+                <td class="px-5">
+                  <h6>Transferencias</h6>
+                  <p>
+                    Las transferencias bancarias son seguras y rápidas, pero
+                    pueden implicar tarifas dependiendo de la institución y el
+                    tipo de transferencia.
+                  </p>
+                </td>
+                <td>
+                  <h3><span class="badge bg-primary">$0</span></h3>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <i
+                    class="bi bi-cash-coin" id="icon-cash"
+                  ></i>
+                </th>
+                <td class="px-5">
+                  <h6>Pago de servicios</h6>
+                  <p>
+                    Para hacer un pago de servicios con cuenta bancaria, el
+                    titular proporciona la información de la factura o el
+                    beneficiario (como el número de cuenta o la empresa a
+                    pagar), y autoriza al banco a transferir los fondos
+                  </p>
+                </td>
+                <td>
+                  <h3><span class="badge bg-primary">$0</span></h3>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <i
+                    class="bi bi-credit-card" id="icon-card"
+                    style="font-size: 2rem; color: #0dcaf0"
+                  ></i>
+                </th>
+                <td class="px-5">
+                  <h6>Tarjeta de débito</h6>
+                  <p>
+                    Cuando se realiza una compra o una transacción, el monto
+                    correspondiente se descuenta directamente de la cuenta
+                    bancaria del titular, por lo que no se incurre en deuda.
+                    Además, las tarjetas de débito pueden utilizarse en cajeros
+                    automáticos para retirar efectivo.
+                  </p>
+                </td>
+                <td>
+                  <h3><span class="badge bg-primary">$0</span></h3>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
     <footer class="bg-dark text-secondary py-4">
       <div class="container">
         <div class="row">
@@ -122,6 +234,7 @@
               <li>
                 <a
                   href="./error404.html"
+
                   class="link-secondary link-underline-opacity-0"
                   >ayuda</a
                 >
@@ -147,6 +260,7 @@
               </li>
               <li>
                 <a
+                  href="../pages/error404.html"
                   href="./error404.html"
                   class="link-secondary link-underline-opacity-0"
                   >Usuario bancario</a
