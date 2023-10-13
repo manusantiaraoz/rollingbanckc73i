@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap");
 
-h1{
-    font-family: "Kanit", sans-serif;
-  font-size: 40px; 
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: bold 700;
+}
+
+tbody {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+td{
+  cursor: pointer;
 }
