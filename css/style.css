@@ -8,6 +8,36 @@
   max-width: 80%;
 }
 
+.carIndex{
+    height: 40vw;
+}
+
+.cardStyle{
+    text-align: center;  
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 2px 7px 1px rgb(190, 187, 187);
+    
+}
+.cardStyle i{
+    margin-top: 5px;
+    font-size: 230%;
+}
+.cardStyle .icon1{
+    color: red;
+}
+.cardStyle .icon2{
+    color:blue
+}
+.cardStyle .icon3{
+    color: green;
+}
+
+
+
+
+
+
 /* dispositivos sm */
 @media all and (max-width: 767px) {
   .iconos-footer {
