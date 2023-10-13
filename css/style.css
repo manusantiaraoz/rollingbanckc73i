@@ -13,17 +13,20 @@
   .iconos-footer {
     display: none;
   }
+  .textos-footer {
+    text-align: center;
+  }
 }
 /* dispositivos md */
 @media all and (min-width: 768px) and (max-width: 991px) {
-  .iconos-footer2{
+  .iconos-footer2 {
     display: none;
   }
 }
 
 /* dispositivos grandes lg */
 @media all and (min-width: 992px) {
-  .iconos-footer2{
+  .iconos-footer2 {
     display: none;
   }
 }
