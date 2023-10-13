@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap");
+
+.Nav-titulo {
+  font-family: "Kanit", sans-serif;
+  font-size: 28px;
+}
+.img-footer1 {
+  max-width: 80%;
+}
+
+/* dispositivos sm */
+@media all and (max-width: 767px) {
+  .iconos-footer {
+    display: none;
+  }
+}
+/* dispositivos md */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .iconos-footer2{
+    display: none;
+  }
+}
+
+/* dispositivos grandes lg */
+@media all and (min-width: 992px) {
+  .iconos-footer2{
+    display: none;
+  }
+}
