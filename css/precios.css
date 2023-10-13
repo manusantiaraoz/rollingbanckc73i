@@ -15,3 +15,23 @@ tbody {
 td {
   cursor: pointer;
 }
+
+#icon-user{
+  font-size: 2rem; 
+  color: cornflowerblue;
+}
+
+#icon-tools{
+  font-size: 2rem;
+  color: #ffc107;
+}
+
+#icon-transf{
+  font-size: 2rem; 
+  color: #dc3545;
+}
+
+#icon-cash{
+  font-size: 2rem; 
+  color: #198754;
+}
