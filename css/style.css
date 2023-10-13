@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap");
+
+.Nav-titulo {
+  font-family: "Kanit", sans-serif;
+  font-size: 28px;
+}
+.img-footer1{
+    max-width: 80%;
+}
