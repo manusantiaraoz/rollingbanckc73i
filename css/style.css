@@ -23,6 +23,17 @@
     margin-top: 5px;
     font-size: 230%;
 }
+.cardStyleSeguridad{
+    text-align: center;  
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    width: 87%;
+}
+.cardStyleSeguridad i{
+    margin-top: 5px;
+    font-size: 230%;
+}
 .cardStyle .icon1{
     color: red;
 }
@@ -32,7 +43,9 @@
 .cardStyle .icon3{
     color: green;
 }
-
+.imgIphone img{
+  width: 90%;
+}
 
 
 
