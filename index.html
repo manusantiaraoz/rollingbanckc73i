@@ -13,16 +13,19 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="../css/style.css" />
     <title>RollingBank</title>
   </head>
-  <body class="vh-100 d-flex flex-column">
+  <body class="vh-100 d-flex flex-column bg-light">
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
@@ -67,7 +70,7 @@
       </nav>
     </header>
     <main class="flex-grow-1">
-      <section id="bankRolling" class="carousel slide ">
+      <section id="bankRolling" class="carousel slide">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -132,93 +135,141 @@
           <span class="visually-hidden">Next</span>
         </button>
       </section>
-      
+
       <section class="container my-3">
-        <div class="row ">
-          <div class="col-md-6 col-lg-4 ">
-        <div class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyle" >
-          <div><i class="fa-regular fa-thumbs-up icon1"></i></div>
-          <div class="mt-2">
-            <h5>Sin sorpresas</h5>
-            <p>Somos transparentes, no vas a encontrar letra chica.</p>
+        <div class="row">
+          <div class="col-md-4 col-lg-4">
+            <div class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyle">
+              <div><i class="fa-regular fa-thumbs-up icon1"></i></div>
+              <div class="mt-2">
+                <h5>Sin sorpresas</h5>
+                <p>Somos transparentes, no vas a encontrar letra chica.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-        <div class="col-md-6 col-lg-4">
-        <div class="card text-bg-light mb-2 mx-1 mt-2 h-100  cardStyle" >
-          <div  ><i class="bi bi-emoji-sunglasses icon2"></i></div>
-          <div>
-            <h5>Aprobado</h5>
-            <p >Estamos autorizados y regulados por el banco Central</p>
+          <div class="col-md-4 col-lg-4">
+            <div class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyle">
+              <div><i class="bi bi-emoji-sunglasses icon2"></i></div>
+              <div>
+                <h5>Aprobado</h5>
+                <p>Estamos autorizados y regulados por el banco Central</p>
+              </div>
+            </div>
           </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4"> 
-          <div class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyle" >
-            <div ><i class="fa-solid fa-dollar-sign icon3"></i></div>
-            <div class="mt-2" >
-              <h5>Sin costo</h5>
-              <p>Todas tus operaciones diarias  están incluidas.</p>
+          <div class="col-md-4 col-lg-4">
+            <div class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyle">
+              <div><i class="fa-solid fa-dollar-sign icon3"></i></div>
+              <div class="mt-2">
+                <h5>Sin costo</h5>
+                <p>Todas tus operaciones diarias están incluidas.</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </section>
-      <section class="container d-flex my-5 ">
-        <article class="imgIphone">
-          <img src="./img/iphone-illustration-sec.png" alt="ilustracion de telefono iphone">
-        </article>
-        <article>
-          <h2>Tu seguridad como Prioridad</h2>
-          <p>seguimos las mejores practicas en cyberseguridad sin complicarte tu operación diaria</p>
-          <div class="row ">
-            <div class="col-md-6 col-lg-6 my-3"> 
-              <div class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyleSeguridad" >
-                <div ><i class="fa-solid fa-dollar-sign icon3"></i></div>
-                <div class="mt-2" >
-                  <h5>Biometría</h5>
-                  <p>Nuestra tecnología te permite acceder a tu cuenta usando tu huella digital o tu cara</p>
+      <section class="container my-5">
+        <article class="row">
+          <div class=" col-md-3 col-lg-3 ">
+            <article class="imgIphone">
+              <img
+                src="./img/iphone-illustration-sec.png"
+                alt="ilustracion de telefono iphone"
+              />
+            </article>
+          </div>
+          <div class="col-md-9 col-lg-9 ">
+            <article>
+              <h2>Tu seguridad como Prioridad</h2>
+              <p>
+                seguimos las mejores practicas en cyberseguridad sin complicarte
+                tu operación diaria
+              </p>
+              <div class="row">
+                <div class="col-md-6 col-lg-6 my-3">
+                  <div
+                    class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyleSeguridad"
+                  >
+                    <div><i class="fa-regular fa-eye ojo"></i></div>
+                    <div class="mt-2">
+                      <h3>Biometría</h3>
+                      <p>
+                        Nuestra tecnología te permite acceder a tu cuenta usando
+                        tu huella digital o tu cara
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6 my-3">
+                  <div
+                    class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyleSeguridad"
+                  >
+                    <div>
+                      <i class="fa-solid fa-fingerprint text-primary"></i>
+                    </div>
+                    <div class="mt-2">
+                      <h3>Segundo factor</h3>
+                      <p>
+                        Usamos un Token invisible para todas las operaciones que
+                        hagas.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6 my-3">
+                  <div
+                    class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyleSeguridad"
+                  >
+                    <div>
+                      <i class="fa-solid fa-puzzle-piece text-info"></i>
+                    </div>
+                    <div>
+                      <h3>Personal</h3>
+                      <p>
+                        vas a poder ingresar desde un dispositivo a la vez a tu
+                        cuenta.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6 my-3">
+                  <div
+                    class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyleSeguridad"
+                  >
+                    <div><i class="fa-solid fa-robot text-success"></i></div>
+                    <div class="mt-2">
+                      <h3>100% encriptado</h3>
+                      <p>
+                        Usamos un Token invisible para todas las operaciones que
+                        hagas. Todas las transacciones son encriptadas para tu
+                        mayor seguridad.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-6 col-lg-6 my-3">
-          <div class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyleSeguridad" >
-            <div><i class="fa-regular fa-thumbs-up icon1"></i></div>
-            <div class="mt-2">
-              <h5>Segundo factor</h5>
-              <p>Usamos un Token invisible para todas las operaciones que hagas.</p>
-            </div>
+            </article>
           </div>
-        </div>
-          <div class="col-md-6 col-lg-6 my-3">
-          <div class="card text-bg-light mb-2 mx-1 mt-2 h-100  cardStyleSeguridad" >
-            <div  ><i class="bi bi-emoji-sunglasses icon2"></i></div>
-            <div>
-              <h5>Personal</h5>
-              <p >vas a poder ingresar desde un dispositivo a la vez a tu cuenta. </p>
-            </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 my-3"> 
-            <div class="card text-bg-light mb-2 mx-1 mt-2 h-100 cardStyleSeguridad" >
-              <div ><i class="fa-solid fa-dollar-sign icon3"></i></div>
-              <div class="mt-2" >
-                <h5>100% encriptado</h5>
-                <p>Usamos un Token invisible para todas las operaciones que hagas. Todas las transacciones son encriptadas para tu mayor seguridad.</p>
-              </div>
-            </div>
-          </div>
-        </div>
         </article>
       </section>
 
       <section class="bg-primary text-center text-light">
-        <h2> RollingBank te esta esperando</h2>
-        <p>bajá la app y viví una nueva experiencía. Empezá creando tu cuenta sólo con tu DNI</p>
-       <article class="d-flex justify-content-center mt-4">
-         <img src="./img/badge-apple-store.svg" alt="appleStore" class="mx-2 my-3">
-         <img src="./img/google-play-badge-bb.svg" alt="googlePlay" class="mx-2 my-3">
-      </article>
+        <h2>RollingBank te esta esperando</h2>
+        <p>
+          bajá la app y viví una nueva experiencía. Empezá creando tu cuenta
+          sólo con tu DNI
+        </p>
+        <article class=" mt-2 ">
+          <img
+            src="./img/badge-apple-store.svg"
+            alt="appleStore"
+            class="mx-2 mb-4"
+          />
+          <img
+            src="./img/google-play-badge-bb.svg"
+            alt="googlePlay"
+            class="mx-2 mb-4"
+          />
+        </article>
       </section>
     </main>
     <footer class="bg-dark text-secondary py-4">
@@ -298,6 +349,9 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="https://kit.fontawesome.com/ef1842fbaa.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ef1842fbaa.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
