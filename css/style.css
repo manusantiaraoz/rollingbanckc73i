@@ -8,6 +8,51 @@
   max-width: 80%;
 }
 
+.carIndex{
+    height: 31vw;
+    object-fit: cover;
+}
+
+.cardStyle{
+    text-align: center;  
+    font-size: x-small;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 2px 7px 1px rgba(190, 187, 187, 0.973);
+    width: 85%;
+}
+.cardStyle i{
+    margin-top: 5px;
+    font-size: 230%;
+}
+.cardStyleSeguridad{
+    text-align:left;  
+    font-size:x-small;
+    border: none;
+    width: 87%;
+}
+.cardStyleSeguridad i{
+    margin-top: 5px;
+    font-size: 230%;
+}
+.cardStyle .icon1{
+    color: red;
+}
+.cardStyle .icon2{
+    color:blue
+}
+.cardStyle .icon3{
+    color: green;
+}
+.imgIphone img{
+  width: 100%;
+}
+.ojo{color: red;}
+
+
+
+
+
+
 /* dispositivos sm */
 @media all and (max-width: 767px) {
   .iconos-footer {
