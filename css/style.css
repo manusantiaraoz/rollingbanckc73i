@@ -17,7 +17,7 @@
     text-align: center;  
     font-size: x-small;
     font-family: 'Roboto', sans-serif;
-    box-shadow: 0px 2px 7px 1px rgb(190, 187, 187);
+    box-shadow: 0px 2px 7px 1px rgba(190, 187, 187, 0.973);
     width: 85%;
 }
 .cardStyle i{
