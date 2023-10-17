@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Changa+One&family=Heebo&family=Lilita+One&family=Montserrat:wght@100&family=Nunito+Sans:opsz,wght@6..12,300&family=Nunito:wght@200;500&family=Pacifico&family=Roboto:wght@300&display=swap");
+
+h1 {
+  font-family: "Changa One", sans-serif;
+  font-size: 50px;
+}
+
+tbody {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+td {
+  cursor: pointer;
+}
+
+#icon-user{
+  font-size: 2rem; 
+  color: cornflowerblue;
+}
+
+#icon-tools{
+  font-size: 2rem;
+  color: #ffc107;
+}
+
+#icon-transf{
+  font-size: 2rem; 
+  color: #dc3545;
+}
+
+#icon-cash{
+  font-size: 2rem; 
+  color: #198754;
+}
