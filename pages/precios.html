@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="banco en linea con con todas las regulaciones aprobadas" />
+    <meta name="keywords" content="banco, digital, dinero, transferencia, seguro, dolar, moneda, euro, " />
+    <meta
+      name="author"
+      content="team4:Thiago Benjamin Fiol, Jose E. Navarro Bovi, Pablo Gonzalez, Ramiro velasquez y Santi Araoz Daniel E"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/precios.css" />
+    <title>RollingBank</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand Nav-titulo" href="../index.html">RollingBank</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/quienesSomos.html"
+                  >¿Quienes somos?</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./pages/precios.html">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/seguridad.html">Seguridad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/error404.html"
+                  >Robo o extravio</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-grow-1 bg-body-tertiary ">
+      <section class="container-fluid text-bg-primary text-center">
+        <h1 class="h1 py-5">Un banco sin costos para vos</h1>
+      </section>
+      <section class="container my-5">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <tbody>
+              <tr>
+                <th scope="row">
+                  <i
+                    class="bi bi-person" id="icon-user"></i>
+                </th>
+                <td class="px-5">
+                  <h6>Apertura de cuenta</h6>
+                  <p >
+                    La cuenta puede ser de ahorros, corriente, inversión u otro
+                    tipo, y permite acceder a una variedad de servicios
+                    bancarios como depósitos, retiros y transacciones
+                    financieras.
+                  </p>
+                </td>
+                <td>
+                  <h3><span class="badge bg-primary">$0</span></h3>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <i
+                    class="bi bi-tools" id="icon-tools"
+                    
+                  ></i>
+                </th>
+                <td class="px-5">
+                  <h6>Mantenimiento</h6>
+                  <p>
+                    Esto garantiza el funcionamiento adecuado y seguro de la
+                    cuenta.
+                  </p>
+                </td>
+                <td>
+                  <h3><span class="badge bg-primary">$0</span></h3>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <i
+                    class="bi bi-credit-card-2-front-fill" id="icon-transf"
+                    
+                  ></i>
+                </th>
+                <td class="px-5">
+                  <h6>Transferencias</h6>
+                  <p>
+                    Las transferencias bancarias son seguras y rápidas, pero
+                    pueden implicar tarifas dependiendo de la institución y el
+                    tipo de transferencia.
+                  </p>
+                </td>
+                <td>
+                  <h3><span class="badge bg-primary">$0</span></h3>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <i
+                    class="bi bi-cash-coin" id="icon-cash"
+                  ></i>
+                </th>
+                <td class="px-5">
+                  <h6>Pago de servicios</h6>
+                  <p>
+                    Para hacer un pago de servicios con cuenta bancaria, el
+                    titular proporciona la información de la factura o el
+                    beneficiario (como el número de cuenta o la empresa a
+                    pagar), y autoriza al banco a transferir los fondos
+                  </p>
+                </td>
+                <td>
+                  <h3><span class="badge bg-primary">$0</span></h3>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <i
+                    class="bi bi-credit-card" id="icon-card"
+                    style="font-size: 2rem; color: #0dcaf0"
+                  ></i>
+                </th>
+                <td class="px-5">
+                  <h6>Tarjeta de débito</h6>
+                  <p>
+                    Cuando se realiza una compra o una transacción, el monto
+                    correspondiente se descuenta directamente de la cuenta
+                    bancaria del titular, por lo que no se incurre en deuda.
+                    Además, las tarjetas de débito pueden utilizarse en cajeros
+                    automáticos para retirar efectivo.
+                  </p>
+                </td>
+                <td>
+                  <h3><span class="badge bg-primary">$0</span></h3>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-secondary py-4">
+      <div class="container">
+        <div class="row textos-footer">
+          <div class="mb-4 mt-1">
+            <div>
+              <a
+                href="./index.html"
+                class="Nav-titulo link-light link-underline-opacity-0"
+                >RollingBank</a
+              >
+              <a
+                href="./error404.html"
+                class="fs-5 link-light iconos-footer ms-4"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="./error404.html"
+                class="fs-5 link-light mx-2 iconos-footer"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="./error404.html" class="fs-5 link-light iconos-footer"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+            <div class="iconos-footer2">
+              <a href="./error404.html" class="fs-5 link-light"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="./error404.html" class="fs-5 link-light mx-2"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+              <a href="./error404.html" class="fs-5 link-light"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <h5>Navegación</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >¿Quienes somos?</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Precios</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Seguridad</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+
+                  class="link-secondary link-underline-opacity-0"
+                  >ayuda</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Robo o extravio</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <h5>Legales</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Regimen de transparencia</a
+                >
+              </li>
+              <li>
+                <a
+                  href="../pages/error404.html"
+                  href="./error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Usuario bancario</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Conducta bancaria</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Estados contables</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./error404.html"
+                  class="link-secondary link-underline-opacity-0"
+                  >Terminos y condiciones</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <img
+              src="../img/usuariosfinancieros.png"
+              alt="logo usuarios financieros"
+              class="img-footer1"
+            />
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <h5>Unite</h5>
+            <img
+              src="../img/badge-apple-store.svg"
+              alt="logo apple store"
+              class="img-fluid mt-2"
+            />
+            <img
+              src="../img/google-play-badge-bb.svg"
+              alt="logo google play"
+              class="img-fluid mt-2"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
